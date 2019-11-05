@@ -1,0 +1,676 @@
+/*
+         Color: Purple - Green
+          BASE: #66318d
+    BASE HOVER: #572779
+      BASE RGB: 102, 49, 141
+           ALT: #82c55e
+     ALT HOVER: #76b357
+       ALT RGB: 130, 197, 94
+*/
+
+a,
+a:focus, a:hover, a:active,
+a.text-base:hover,
+.text-base,
+.text-base.page-main-heading a,
+.text-base p,
+.text-base li,
+.text-base h1, .text-base h2, .text-base h3, .text-base h4, .text-base h5, .text-base h6,
+.text-base h1 a, .text-base h2 a, .text-base h3 a, .text-base h4 a, .text-base h5 a, .text-base h6 a,
+.text-base h1 small, .text-base h2 small, .text-base h3 small, .text-base h4 small, .text-base h5 small, .text-base h6 small,
+.text-base.page-main-heading .breadcrumb > li + li::before,
+header.main-header.logo-position-top .base-bg .logo span,
+.list-link .list-ul li.active a,
+.list-link .list-ul li a:hover,
+.list-img .list-ul > li a:hover,
+.separator i,
+.service .service-text h1 a:hover,
+.service .service-text h2 a:hover,
+.service .service-text h3 a:hover,
+.service .service-text h4 a:hover,
+.service .service-text h5 a:hover,
+.service .service-text h6 a:hover,
+.blog .blog-text .title a:hover,
+.blog .blog-text .meta-tags a:hover,
+.btn-link,
+.btn-link:hover,
+.btn-base.transparent,
+.portfolio a:hover,
+.shop .shop-text > a,
+.transparent-header.smaller.dark .transparent.transparent-text-white .navbar-nav > li.active > a,
+.transparent-header.smaller.dark .transparent.transparent-text-white .navbar-nav > li.active.open > a:hover,
+.transparent-header.base .transparent.transparent-text-white .navbar-nav > li.active > a:hover,
+.transparent-header.smaller.base .transparent .navbar-nav > li > a:hover,
+.transparent-header.smaller.base .transparent.transparent-text-white .navbar-nav > li > a:hover,
+.transparent-header.smaller.base .transparent.transparent-text-white .navbar-nav > li.active > a,
+.transparent-header.smaller.base .transparent.transparent-text-white .navbar-nav > li.active > a:hover,
+.transparent-header.smaller.base .transparent.transparent-text-white .navbar-nav > li.active.open > a:hover,
+.transparent-header .transparent.transparent-text-black .navbar-nav > li.open > a:focus,
+.transparent-header.dark .transparent.transparent-text-black .navbar-nav > li > a,
+.transparent-header.dark .transparent.transparent-text-black .navbar-nav > li > a:hover,
+.transparent-header.dark .transparent.transparent-text-black .navbar-brand,
+.transparent-header.base .transparent.transparent-text-black .navbar-nav > li > a,
+.transparent-header.base .transparent .navbar-brand,
+.transparent-header.base .transparent.transparent-text-white .navbar-brand,
+.transparent-header .transparent.transparent-text-black .search-shop-dropdown .navbar-nav > li > a:focus,
+.transparent-header .transparent.transparent-text-black .search-shop-dropdown .navbar-nav > li.open > a:focus,
+.transparent-header .transparent.transparent-text-black .search-shop-dropdown .navbar-nav > li > a:focus,
+.transparent-header .transparent.transparent-text-black .search-shop-dropdown .navbar-nav > li.open > a:focus,
+.transparent-header.smaller.dark .transparent.transparent-text-black .navbar-nav > li.active > a,
+.transparent-header.smaller.dark .transparent.transparent-text-black .navbar-nav > li.active.open > a:hover,
+.transparent-header.smaller.base .transparent.transparent-text-black .navbar-nav > li.open > a,
+.transparent-header.smaller.base .transparent.transparent-text-black .navbar-nav > li > a:hover,
+.transparent-header.smaller.base .transparent.transparent-text-black .navbar-nav > li.active > a,
+.transparent-header.smaller.base .transparent.transparent-text-black .navbar-nav > li.active > a:hover,
+.transparent-header.smaller.base .transparent.transparent-text-black .navbar-nav > li.active.open > a:hover,
+.transparent-header.smaller.base .transparent.transparent-text-black .navbar-nav > li.open > a:hover,
+.transparent-header.dark .transparent.transparent-text-black .navbar-nav > li.current > a,
+.transparent-header.dark .transparent.transparent-text-black .navbar-nav > li.active > a:hover,
+.transparent-header.base .transparent.transparent-text-black .navbar-nav > li.active > a:hover,
+.light.pagination > li > a, .light.pagination > li > span,
+.light.pagination > .active > a,
+.light.pagination > .active > a:focus,
+.light.pagination > .active > a:hover,
+.light.pagination > .active > span,
+.light.pagination > .active > span:focus,
+.light.pagination > .active > span:hover,
+.label-light,
+.light.nav-pills > li.active > a,
+.light.nav-pills > li.active > a:focus,
+.light.nav-pills > li.active > a:hover,
+.light.list-group-item.active > .badge,
+.light.nav-pills > .active > a > .badge,
+.light.nav-pills > li > a,
+.light.list-group .list-group-item.active,
+.light.list-group .list-group-item.active:focus,
+.light.list-group .list-group-item.active:hover,
+.light.list-group .list-group-item.active .list-group-item-text,
+.light.list-group .list-group-item.active:focus .list-group-item-text,
+.light.list-group .list-group-item.active:hover .list-group-item-text,
+.dark.portfolio .portfolio-text a:hover,
+.dark.shop .shop-text a,
+header.main-header.dark nav.navbar .navbar-nav .active > a,
+header.main-header.dark nav.navbar .navbar-nav .active > a:focus,
+header.main-header.dark nav.navbar .navbar-nav .active > a:hover,
+header.main-header.dark nav.navbar .navbar-nav .open .dropdown-menu > .active > a,
+header.main-header.dark nav.navbar .navbar-nav .open .dropdown-menu > .active > a:focus,
+header.main-header.dark nav.navbar .navbar-nav .open .dropdown-menu > .active > a:hover,
+header.main-header.dark nav.navbar .navbar-nav > .open > a,
+header.main-header.dark nav.navbar .navbar-nav > .open > a:focus,
+header.main-header.dark nav.navbar .navbar-nav > .open > a:hover,
+header.main-header.dark nav.navbar .dropdown-menu li a:hover,
+header.main-header.dark nav.navbar .dropdown-menu li a:focus,
+header.main-header.dark nav.navbar .navbar-nav .open .dropdown-menu > li > a:focus,
+header.main-header.dark nav.navbar .navbar-nav .open .dropdown-menu > li > a:hover,
+header.main-header.dark nav.navbar .dropdown-menu > .active > a,
+header.main-header.dark nav.navbar .dropdown-menu > .active > a:focus,
+header.main-header.dark nav.navbar .dropdown-menu > .active > a:hover,
+header.main-header.dark nav.navbar .navbar-nav > li > a:focus,
+header.main-header.dark nav.navbar .navbar-nav > li > a:hover,
+header.main-header.base nav.navbar .navbar-nav .active > a,
+header.main-header.base nav.navbar .navbar-nav .active > a:focus,
+header.main-header.base nav.navbar .navbar-nav .active > a:hover,
+header.main-header.base nav.navbar .navbar-nav .open .dropdown-menu > .active > a,
+header.main-header.base nav.navbar .navbar-nav .open .dropdown-menu > .active > a:focus,
+header.main-header.base nav.navbar .navbar-nav .open .dropdown-menu > .active > a:hover,
+header.main-header.base nav.navbar .navbar-nav > .open > a,
+header.main-header.base nav.navbar .navbar-nav > .open > a:focus,
+header.main-header.base nav.navbar .navbar-nav > .open > a:hover,
+header.main-header.base nav.navbar .dropdown-menu li a:hover,
+header.main-header.base nav.navbar .dropdown-menu li a:focus,
+header.main-header.base nav.navbar .navbar-nav .open .dropdown-menu > li > a:focus,
+header.main-header.base nav.navbar .navbar-nav .open .dropdown-menu > li > a:hover,
+header.main-header.base nav.navbar .dropdown-menu > .active > a,
+header.main-header.base nav.navbar .dropdown-menu > .active > a:focus,
+header.main-header.base nav.navbar .dropdown-menu > .active > a:hover,
+header.main-header.base nav.navbar .navbar-nav > li > a:focus,
+header.main-header.base nav.navbar .navbar-nav > li > a:hover,
+header.main-header.base .logo span,
+.base.list-menu .list-ul a:hover,
+.base.list-menu .list-ul li.active a,
+.base.list-menu .list-ul li:hover i,
+.base.list-menu .list-ul li.active i,
+.base.pagination > li > a, .base.pagination > li > span,
+.tabs-theme.base .nav > li.active > a,
+.tabs-theme .nav > li > a, .tabs-theme .nav > li > a:hover,
+header.main-header.base .shop-cart-dropdown a .badge,
+.list-group-item.active.base > .badge,
+.nav-pills.base > .active > a > .badge,
+.btn-base .badge
+{
+    color: #66318d;
+}
+a.text-base-black,
+a.text-black-base:hover,
+a.text-base-white,
+a.text-white-base:hover,
+.owl-theme .owl-controls .owl-buttons div,
+.flex-direction-nav a
+{
+    color:#66318d !important;
+}
+.border-base,
+.service:hover .timeline-list,
+.owl-theme .owl-controls .owl-buttons div,
+.flex-direction-nav a,
+.btn-base, .btn-base.focus, .btn-base:focus,
+#filterable .active .btn-default, #filterable .active .btn-default.focus, #filterable .active .btn-default:focus,
+.btn-base.transparent,
+.btn-base.transparent:focus,
+.btn-base.transparent.focus,
+.btn-base.transparent:hover,
+.btn-base.transparent:active,
+.btn-base.transparent.active,
+.open > .dropdown-toggle.btn-base.transparent,
+.btn-base.transparent:active:hover,
+.btn-base.transparent.active:hover,
+.open > .dropdown-toggle.btn-base.transparent:hover,
+.btn-base.transparent:active:focus,
+.btn-base.transparent.active:focus,
+.open > .dropdown-toggle.btn-base.transparent:focus,
+.btn-base.transparent:active.focus,
+.btn-base.transparent.active.focus,
+.open > .dropdown-toggle.btn-base.transparent.focus,
+.btn-light:hover,
+.light.service:hover .timeline-list,
+.btn-dark:hover,
+.dark.service:hover .timeline-list,
+.base.service .timeline-list,
+.base.pagination > .active > a,
+.base.pagination > .active > a:focus,
+.base.pagination > .active > a:hover,
+.base.pagination > .active > span,
+.base.pagination > .active > span:focus,
+.base.pagination > .active > span:hover,
+.base.pager li > a, .base.pager li > span,
+.base.list-group .list-group-item.active,
+.base.list-group .list-group-item.active:focus,
+.base.list-group .list-group-item.active:hover,
+.panel-base,
+.panel-base > .panel-heading,
+.base.shop .shop-text,
+.base.list-menu
+{
+	border-color:#66318d;
+}
+.border-top-base,
+.panel-base .table > tbody > tr > td,
+.panel-base .table > tbody > tr > th,
+.panel-base .table > tfoot > tr > td,
+.panel-base .table > tfoot > tr > th,
+.panel-base .table > thead > tr > td,
+.panel-base .table > thead > tr > th,
+.panel.panel-base > .panel-body + .table,
+.panel.panel-base > .panel-body + .table-responsive,
+.panel.panel-base > .table + .panel-body,
+.panel.panel-base > .table-responsive + .panel-body,
+.panel-base .list-group-item,
+.navbar-nav > li .dropdown-menu,
+header.main-header.dark nav.navbar .navbar-nav > li > .dropdown-menu,
+.base.list-menu .list-ul li:first-child a
+{
+	border-top-color:#66318d;
+}
+.border-right-base,
+header.main-header.logo-position-top .white-bg .logo span,
+.singe-quote .quote-icon,
+.testimonial .testimonial-icon,
+.pricing-table.base .price-detail,
+.service:hover .service-icon,
+.logo span,
+.social-icon > li > a:hover,
+.portfolio .portfolio-hover > a.zoom:hover,
+.light.service:hover .service-icon,
+.light.social-icon > li > a:hover,
+.dark.service:hover .service-icon,
+.dark.social-icon > li > a:hover,
+.base.service .service-icon,
+.base.social-icon > li > a
+{
+	border-right-color:#66318d;
+}
+.border-bottom-base,
+.panel-base .table > thead > tr > th
+{
+	border-bottom-color:#66318d;
+}
+.border-left-base,
+.service.text-right:hover .service-icon,
+.blog-meta ul li a,
+.portfolio .portfolio-hover > a.link:hover,
+.light.service.text-right:hover .service-icon,
+.dark.service.text-right:hover .service-icon,
+.base.service.text-right .service-icon,
+.base.accordion .panel-heading > .panel-title > a > .icon-collapse
+{
+	border-left-color:#66318d;
+}
+.shop-cart-dropdown a .badge,
+#bar,
+.transparent-header.smaller.base nav.navbar.transparent,
+.btn-light:hover,
+.btn-dark:hover,
+.base-bg,
+.page-main-heading.base,
+header.main-header.base nav.navbar,
+header.main-header.base nav.navbar .dropdown-menu,
+.base.list-menu,
+.base.portfolio .portfolio-text,
+.base.shop .shop-text,
+.base.team,
+.table > tbody > tr.base > td,
+.table > tbody > tr.base > th,
+.table > tbody > tr > td.base,
+.table > tbody > tr > th.base,
+.table > tfoot > tr.base > td,
+.table > tfoot > tr.base > th,
+.table > tfoot > tr > td.base,
+.table > tfoot > tr > th.base,
+.table > thead > tr.base > td,
+.table > thead > tr.base > th,
+.table > thead > tr > td.base,
+.table > thead > tr > th.base,
+.base.pagination > .active > a,
+.base.pagination > .active > a:focus,
+.base.pagination > .active > a:hover,
+.base.pagination > .active > span,
+.base.pagination > .active > span:focus,
+.base.pagination > .active > span:hover,
+.base.pager li > a, .base.pager li > span,
+.label-base,
+.base.nav-pills > li.active > a,
+.base.nav-pills > li.active > a:focus,
+.base.nav-pills > li.active > a:hover,
+.alert-base,
+.base.list-group .list-group-item.active,
+.base.list-group .list-group-item.active:focus,
+.base.list-group .list-group-item.active:hover,
+.list-group-item-base,
+.panel-base > .panel-heading,
+.progress-bar.progress-bar-base,
+.panel-base,
+.tabs-theme.base .nav > li > a,
+.tabs-theme.base .nav > li > a:focus,
+.tabs-theme.base .nav > li > a:hover
+{
+	background:#66318d;
+}
+.owl-theme .owl-controls .owl-buttons div:hover,
+.owl-theme .owl-controls .owl-page span,
+.flex-control-paging li a
+{
+    background: #66318d !important;
+}
+.btn-base, .btn-base.focus, .btn-base:focus,
+#filterable .active .btn-default, #filterable .active .btn-default.focus, #filterable .active .btn-default:focus,
+.btn-base.transparent:focus,
+.btn-base.transparent.focus,
+.btn-base.transparent:hover,
+.btn-base.transparent:active,
+.btn-base.transparent.active,
+.open > .dropdown-toggle.btn-base.transparent,
+.btn-base.transparent:active:hover,
+.btn-base.transparent.active:hover,
+.open > .dropdown-toggle.btn-base.transparent:hover,
+.btn-base.transparent:active:focus,
+.btn-base.transparent.active:focus,
+.open > .dropdown-toggle.btn-base.transparent:focus,
+.btn-base.transparent:active.focus,
+.btn-base.transparent.active.focus,
+.open > .dropdown-toggle.btn-base.transparent.focus,
+nav.navbar .navbar-nav .active > a,
+nav.navbar .navbar-nav .active > a:focus,
+nav.navbar .navbar-nav .active > a:hover,
+nav.navbar .navbar-nav .open .dropdown-menu > .active > a,
+nav.navbar .navbar-nav .open .dropdown-menu > .active > a:focus,
+nav.navbar .navbar-nav .open .dropdown-menu > .active > a:hover,
+header.main-header.light .navbar-nav .active > a,
+header.main-header.light .navbar-nav .active > a:focus,
+header.main-header.light .navbar-nav .active > a:hover,
+header.main-header.light .navbar-nav .open .dropdown-menu > .active > a,
+header.main-header.light .navbar-nav .open .dropdown-menu > .active > a:focus,
+header.main-header.light .navbar-nav .open .dropdown-menu > .active > a:hover
+{
+    background-color: #66318d;
+}
+
+/*
+    HOVER
+*/
+.btn-base:hover {
+    background-color: #572779;
+}
+
+/*
+    RGB    
+*/
+.semi-transparent-header.base nav.navbar.semi-transparent,
+.overlay.base {
+    background: rgba(102, 49, 141, 0.8);
+}
+.overlay.base-1 {
+    background: rgba(102, 49, 141, 0.1);
+}
+.overlay.base-2 {
+    background: rgba(102, 49, 141, 0.2);
+}
+.overlay.base-3 {
+    background: rgba(102, 49, 141, 0.3);
+}
+.overlay.base-4 {
+    background: rgba(102, 49, 141, 0.4);
+}
+.overlay.base-5 {
+    background: rgba(102, 49, 141, 0.5);
+}
+.overlay.base-6 {
+    background: rgba(102, 49, 141, 0.6);
+}
+.overlay.base-7 {
+    background: rgba(102, 49, 141, 0.7);
+}
+.overlay.base-8 {
+    background: rgba(102, 49, 141, 0.8);
+}
+.overlay.base-9 {
+    background: rgba(102, 49, 141, 0.9);
+}
+
+/*********************************
+**********************************
+**********************************
+    ALT
+**********************************
+**********************************
+*********************************/
+a.text-alt:hover,
+.text-alt,
+.text-alt.page-main-heading a,
+.text-alt p,
+.text-alt li,
+.text-alt h1, .text-alt h2, .text-alt h3, .text-alt h4, .text-alt h5, .text-alt h6,
+.text-alt h1 a, .text-alt h2 a, .text-alt h3 a, .text-alt h4 a, .text-alt h5 a, .text-alt h6 a,
+.text-alt h1 small, .text-alt h2 small, .text-alt h3 small, .text-alt h4 small, .text-alt h5 small, .text-alt h6 small,
+.text-alt.page-main-heading .breadcrumb > li + li::before,
+header.main-header.logo-position-top .alt-bg .logo span,
+.btn-alt.transparent,
+.transparent-header.alt .transparent.transparent-text-white .navbar-nav > li.active > a:hover,
+.transparent-header.smaller.alt .transparent .navbar-nav > li > a:hover,
+.transparent-header.smaller.alt .transparent.transparent-text-white .navbar-nav > li > a:hover,
+.transparent-header.smaller.alt .transparent.transparent-text-white .navbar-nav > li.active > a,
+.transparent-header.smaller.alt .transparent.transparent-text-white .navbar-nav > li.active > a:hover,
+.transparent-header.smaller.alt .transparent.transparent-text-white .navbar-nav > li.active.open > a:hover,
+.transparent-header.alt .transparent.transparent-text-black .navbar-nav > li > a,
+.transparent-header.alt .transparent .navbar-brand,
+.transparent-header.alt .transparent.transparent-text-white .navbar-brand,
+.transparent-header.smaller.alt .transparent.transparent-text-black .navbar-nav > li.open > a,
+.transparent-header.smaller.alt .transparent.transparent-text-black .navbar-nav > li > a:hover,
+.transparent-header.smaller.alt .transparent.transparent-text-black .navbar-nav > li.active > a,
+.transparent-header.smaller.alt .transparent.transparent-text-black .navbar-nav > li.active > a:hover,
+.transparent-header.smaller.alt .transparent.transparent-text-black .navbar-nav > li.active.open > a:hover,
+.transparent-header.smaller.alt .transparent.transparent-text-black .navbar-nav > li.open > a:hover,
+.transparent-header.alt .transparent.transparent-text-black .navbar-nav > li.active > a:hover,
+header.main-header.alt nav.navbar .navbar-nav .active > a,
+header.main-header.alt nav.navbar .navbar-nav .active > a:focus,
+header.main-header.alt nav.navbar .navbar-nav .active > a:hover,
+header.main-header.alt nav.navbar .navbar-nav .open .dropdown-menu > .active > a,
+header.main-header.alt nav.navbar .navbar-nav .open .dropdown-menu > .active > a:focus,
+header.main-header.alt nav.navbar .navbar-nav .open .dropdown-menu > .active > a:hover,
+header.main-header.alt nav.navbar .navbar-nav > .open > a,
+header.main-header.alt nav.navbar .navbar-nav > .open > a:focus,
+header.main-header.alt nav.navbar .navbar-nav > .open > a:hover,
+header.main-header.alt nav.navbar .dropdown-menu li a:hover,
+header.main-header.alt nav.navbar .dropdown-menu li a:focus,
+header.main-header.alt nav.navbar .navbar-nav .open .dropdown-menu > li > a:focus,
+header.main-header.alt nav.navbar .navbar-nav .open .dropdown-menu > li > a:hover,
+header.main-header.alt nav.navbar .dropdown-menu > .active > a,
+header.main-header.alt nav.navbar .dropdown-menu > .active > a:focus,
+header.main-header.alt nav.navbar .dropdown-menu > .active > a:hover,
+header.main-header.alt nav.navbar .navbar-nav > li > a:focus,
+header.main-header.alt nav.navbar .navbar-nav > li > a:hover,
+header.main-header.alt .logo span,
+.alt.list-menu .list-ul a:hover,
+.alt.list-menu .list-ul li.active a,
+.alt.list-menu .list-ul li:hover i,
+.alt.list-menu .list-ul li.active i,
+.alt.pagination > li > a, .alt.pagination > li > span,
+.tabs-theme.alt .nav > li.active > a,
+header.main-header.alt .shop-cart-dropdown a .badge,
+.list-group-item.active.alt > .badge,
+.nav-pills.alt > .active > a > .badge,
+.btn-alt .badge
+{
+    color: #82c55e;
+}
+a.text-alt-black,
+a.text-black-alt:hover,
+a.text-alt-white,
+a.text-white-alt:hover
+{
+    color:#82c55e !important;
+}
+.border-alt,
+.btn-alt, .btn-alt.focus, .btn-alt:focus,
+.btn-alt.transparent,
+.btn-alt.transparent:focus,
+.btn-alt.transparent.focus,
+.btn-alt.transparent:hover,
+.btn-alt.transparent:active,
+.btn-alt.transparent.active,
+.open > .dropdown-toggle.btn-alt.transparent,
+.btn-alt.transparent:active:hover,
+.btn-alt.transparent.active:hover,
+.open > .dropdown-toggle.btn-alt.transparent:hover,
+.btn-alt.transparent:active:focus,
+.btn-alt.transparent.active:focus,
+.open > .dropdown-toggle.btn-alt.transparent:focus,
+.btn-alt.transparent:active.focus,
+.btn-alt.transparent.active.focus,
+.open > .dropdown-toggle.btn-alt.transparent.focus,
+.alt.service .timeline-list,
+.alt.pagination > .active > a,
+.alt.pagination > .active > a:focus,
+.alt.pagination > .active > a:hover,
+.alt.pagination > .active > span,
+.alt.pagination > .active > span:focus,
+.alt.pagination > .active > span:hover,
+.alt.pager li > a, .alt.pager li > span,
+.alt.list-group .list-group-item.active,
+.alt.list-group .list-group-item.active:focus,
+.alt.list-group .list-group-item.active:hover,
+.panel-alt,
+.panel-alt > .panel-heading,
+.alt.shop .shop-text,
+.alt.list-menu,
+body.alt header.main-header.base .navbar-nav > li > .dropdown-menu
+{
+	border-color:#82c55e;
+}
+.border-top-alt,
+.panel-alt .table > tbody > tr > td,
+.panel-alt .table > tbody > tr > th,
+.panel-alt .table > tfoot > tr > td,
+.panel-alt .table > tfoot > tr > th,
+.panel-alt .table > thead > tr > td,
+.panel-alt .table > thead > tr > th,
+.panel.panel-alt > .panel-body + .table,
+.panel.panel-alt > .panel-body + .table-responsive,
+.panel.panel-alt > .table + .panel-body,
+.panel.panel-alt > .table-responsive + .panel-body,
+.panel-alt .list-group-item,
+.alt.list-menu .list-ul li:first-child a,
+body.alt .navbar-nav > li .dropdown-menu
+{
+	border-top-color:#82c55e;
+}
+.border-right-alt,
+.pricing-table.alt .price-detail,
+.alt.service .service-icon,
+.alt.social-icon > li > a
+{
+	border-right-color:#82c55e;
+}
+.border-bottom-alt,
+.panel-alt .table > thead > tr > th
+{
+	border-bottom-color:#82c55e;
+}
+.border-left-alt,
+.alt.service.text-right .service-icon,
+.alt.accordion .panel-heading > .panel-title > a > .icon-collapse
+{
+	border-left-color:#82c55e;
+}
+.transparent-header.smaller.alt nav.navbar.transparent,
+.alt-bg,
+.page-main-heading.alt,
+header.main-header.alt nav.navbar,
+header.main-header.alt nav.navbar .dropdown-menu,
+.alt.list-menu,
+.alt.portfolio .portfolio-text,
+.alt.shop .shop-text,
+.alt.team,
+.table > tbody > tr.alt > td,
+.table > tbody > tr.alt > th,
+.table > tbody > tr > td.alt,
+.table > tbody > tr > th.alt,
+.table > tfoot > tr.alt > td,
+.table > tfoot > tr.alt > th,
+.table > tfoot > tr > td.alt,
+.table > tfoot > tr > th.alt,
+.table > thead > tr.alt > td,
+.table > thead > tr.alt > th,
+.table > thead > tr > td.alt,
+.table > thead > tr > th.alt,
+.alt.pagination > .active > a,
+.alt.pagination > .active > a:focus,
+.alt.pagination > .active > a:hover,
+.alt.pagination > .active > span,
+.alt.pagination > .active > span:focus,
+.alt.pagination > .active > span:hover,
+.alt.pager li > a, .alt.pager li > span,
+.label-alt,
+.alt.nav-pills > li.active > a,
+.alt.nav-pills > li.active > a:focus,
+.alt.nav-pills > li.active > a:hover,
+.alert-alt,
+.alt.list-group .list-group-item.active,
+.alt.list-group .list-group-item.active:focus,
+.alt.list-group .list-group-item.active:hover,
+.list-group-item-alt,
+.panel-alt > .panel-heading,
+.progress-bar.progress-bar-alt,
+.panel-alt,
+.tabs-theme.alt .nav > li > a,
+.tabs-theme.alt .nav > li > a:focus,
+.tabs-theme.alt .nav > li > a:hover,
+/* alt of white */
+body.alt header.main-header.base nav.navbar .navbar-nav .active > a,
+body.alt header.main-header.base nav.navbar .navbar-nav .active > a:focus,
+body.alt header.main-header.base nav.navbar .navbar-nav .active > a:hover,
+body.alt header.main-header.base nav.navbar .navbar-nav .open .dropdown-menu > .active > a,
+body.alt header.main-header.base nav.navbar .navbar-nav .open .dropdown-menu > .active > a:focus,
+body.alt header.main-header.base nav.navbar .navbar-nav .open .dropdown-menu > .active > a:hover,
+body.alt header.main-header.base nav.navbar .navbar-nav > .open > a,
+body.alt header.main-header.base nav.navbar .navbar-nav > .open > a:focus,
+body.alt header.main-header.base nav.navbar .navbar-nav > .open > a:hover,
+body.alt header.main-header.base nav.navbar .dropdown-menu li a:hover,
+body.alt header.main-header.base nav.navbar .dropdown-menu li a:focus,
+body.alt header.main-header.base nav.navbar .navbar-nav .open .dropdown-menu > li > a:focus,
+body.alt header.main-header.base nav.navbar .navbar-nav .open .dropdown-menu > li > a:hover,
+body.alt header.main-header.base nav.navbar .dropdown-menu > .active > a,
+body.alt header.main-header.base nav.navbar .dropdown-menu > .active > a:focus,
+body.alt header.main-header.base nav.navbar .dropdown-menu > .active > a:hover,
+body.alt header.main-header.base nav.navbar .navbar-nav > li > a:focus,
+body.alt header.main-header.base nav.navbar .navbar-nav > li > a:hover,
+body.alt header.main-header.base .shop-cart-dropdown a .badge
+{
+	background:#82c55e;
+}
+.btn-alt, .btn-alt.focus, .btn-alt:focus,
+.btn-alt.transparent:focus,
+.btn-alt.transparent.focus,
+.btn-alt.transparent:hover,
+.btn-alt.transparent:active,
+.btn-alt.transparent.active,
+.open > .dropdown-toggle.btn-alt.transparent,
+.btn-alt.transparent:active:hover,
+.btn-alt.transparent.active:hover,
+.open > .dropdown-toggle.btn-alt.transparent:hover,
+.btn-alt.transparent:active:focus,
+.btn-alt.transparent.active:focus,
+.open > .dropdown-toggle.btn-alt.transparent:focus,
+.btn-alt.transparent:active.focus,
+.btn-alt.transparent.active.focus,
+.open > .dropdown-toggle.btn-alt.transparent.focus
+{
+    background-color: #82c55e;
+}
+
+/*
+    HOVER
+*/
+.btn-alt:hover {
+    background-color: #76b357;
+}
+
+/*
+    RGB    
+*/
+.semi-transparent-header.alt nav.navbar.semi-transparent,
+.overlay.alt {
+    background: rgba(130, 197, 94, 0.8);
+}
+.overlay.alt-1 {
+    background: rgba(130, 197, 94, 0.1);
+}
+.overlay.alt-2 {
+    background: rgba(130, 197, 94, 0.2);
+}
+.overlay.alt-3 {
+    background: rgba(130, 197, 94, 0.3);
+}
+.overlay.alt-4 {
+    background: rgba(130, 197, 94, 0.4);
+}
+.overlay.alt-5 {
+    background: rgba(130, 197, 94, 0.5);
+}
+.overlay.alt-6 {
+    background: rgba(130, 197, 94, 0.6);
+}
+.overlay.alt-7 {
+    background: rgba(130, 197, 94, 0.7);
+}
+.overlay.alt-8 {
+    background: rgba(130, 197, 94, 0.8);
+}
+.overlay.alt-9 {
+    background: rgba(130, 197, 94, 0.9);
+}
+
+
+
+.btn-alt, .btn-alt.focus, .btn-alt:focus,
+.btn-alt:hover,
+.btn-alt.transparent,
+.btn-alt.transparent:focus,
+.btn-alt.transparent.focus,
+.btn-alt.transparent:hover,
+.btn-alt.transparent:active,
+.btn-alt.transparent.active,
+.open > .dropdown-toggle.btn-alt.transparent,
+.btn-alt.transparent:active:hover,
+.btn-alt.transparent.active:hover,
+.open > .dropdown-toggle.btn-alt.transparent:hover,
+.btn-alt.transparent:active:focus,
+.btn-alt.transparent.active:focus,
+.open > .dropdown-toggle.btn-alt.transparent:focus,
+.btn-alt.transparent:active.focus,
+.btn-alt.transparent.active.focus,
+.open > .dropdown-toggle.btn-alt.transparent.focus,
+.service.alt a,
+.social-icon.alt > li > a
+{
+    color: #fff;
+}
